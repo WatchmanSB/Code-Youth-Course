@@ -14,23 +14,23 @@
         
         <center><h1 style="border:red; border-width:8px; border-style:double">Student Registration Form</h1></center>
 
-        <label for="name">Name:</label>  <input name="name" type="text" required/>
+        <label for="name">Name:</label>  <input name="name" type="text" placeholder="John" required/>
         
         <br><br>
 
-        <label for="middlename">Middle Name: </label> <input name="middlename" type="text" required/>
+        <label for="middlename">Middle Name: </label> <input name="middlename" type="text" placeholder="Adam" required/>
 
         <br><br>
 
-        <label for="lastname">Last Name: </label> <input name="lastname" type="text" required/>
+        <label for="lastname">Last Name: </label> <input name="lastname" type="text" placeholder="Smith" required/>
 
         <br><br>
 
-        <label for="phone">Phone Number: </label> <input name="phone" type="text" />
+        <label for="phone">Phone Number: </label> <input name="phone" type="text" placeholder="XXX-XXX-XXXX"/>
 
         <br><br>
 
-        <label for="cell"></label>Cell Number: <input name="cell" type="text" />
+        <label for="cell"></label>Cell Number: <input name="cell" type="text" placeholder="XXX-XXX-XXXX" />
 
     
     </fieldset>
@@ -52,12 +52,12 @@
         <br><br>
 
         <label for="address">Address 1: </label>
-        <input name="address" type="text" required/>
+        <input name="address" type="text" placeholder="123 Road ave" required/>
 
         <br><br>
 
         <label for="address">Address 2: </label>
-        <input name="address" type="text" />
+        <input name="address" type="text" placeholder="456 Road ave"/>
         
         <br><br>
 
@@ -90,23 +90,30 @@
         <input type="radio" name="radio" id="course" value="course"/>Robotics
 
         <br><br>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Extra Information</legend>
 
         Let us get to know you. <br>Write something about yourself:
         <br>
-        <textarea rows="20" cols="20" name="Description"></textarea>
+        <textarea rows="20" cols="20" name="Description" placeholder="..."></textarea>
 
-        <br><br>
+        <br><br><br>
 
         <label for="uplaod">Submit Resume:</label> <input type="file" name="upload"/>
 
         <br><br><br><br>
         
         <center><input type="submit" value="Submit"/></center>
-
-
-
-
-
+    
     </fieldset>
+
+
+
+
+
+    
 </body>
 </html>
