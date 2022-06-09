@@ -10,6 +10,7 @@
     
     <center><h1><b>Survey Form</b></h1></center>
 
+    <form></form>
     <fieldset><center>
 
         Let us know how we can improve freeCodeCamp
@@ -26,6 +27,52 @@
 
         <label for="date">* Age:</label>
         <input type="date" name="date" value="12-06-2022"/>
+
+        <br>
+
+        <table>
+            
+            <tr>
+                <td><label for="q1">Which option best describes your current role?</label></td>
+                <td><select name="q1" required>
+                    <option value="q1">Applicant</option>
+                    <option value="q1">Student</option>
+                    <option value="q1">Teacher</option>
+                    <option value="q1">Counsoler</option>
+                    <option value="q1">Career Counselor</option>
+                </td>
+                </select>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td><label for="q2">How likely is that you would recommend freeCodeCamp to a friend?</label></td>
+                <td><input type="radio" name="q2" value="q2"
+                    checked="checked" /> Definitely
+                    <input type="radio" name="q2" value="q2" />
+                    Maybe
+                    <input type="radio" name="q2" value="q2" />
+                    Not Sure</td>
+            </tr>
+
+            <tr>
+                <td><label for="q3">What do you like most in FCC</label></td>
+                <td><textarea name="comments" cols="20" rows="4">What do you like most about this course?</textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="q4"></label>Things that should be improved in future (Check all that apply)</td>
+                <td><select name="q4" size="3"
+                    multiple="multiple">
+                    <option value="q4" selected="selected">
+                    Front-End</option>
+                    <option value="q4">Back-End</option>
+                    <option value="q4"
+                    selected="selected">Data Visualization</option>
+                   </select></td>
+            </tr>
+        </table>
 
 
 
@@ -46,6 +93,7 @@
 
 
     </center></fieldset>
+</form>
 
 </body>
 </html>
