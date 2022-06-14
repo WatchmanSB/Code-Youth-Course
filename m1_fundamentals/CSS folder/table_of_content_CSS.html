@@ -6,27 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS table of content</title>
     <style>
-        table.darkgreen {
-            border: solid 1px;
+
+        table,th,tr,td {
+            border: 1px solid;
             border-collapse: collapse;
-            display: inline-block;
-            background-color: rgb(77, 94, 75);
             margin: 30px 0px 0px 750px;
         }
 
-        th,tr,td {
-            border: solid 1px;
-        }
-
-        .tdlight {
-            background-color: rgb(172, 219, 172);
-
+        #sheet {
+            background-color: rgb(65, 87, 65);
         }
 
         .tddark {
-            background-color: rgb(101, 133, 101);
+            background-color: rgb(103, 139, 103);
         }
-        
+
+        .tdlight {
+            background-color: rgb(154, 204, 154);
+        }
+
+
 
 
     </style>
@@ -34,10 +33,13 @@
 </head>
 
 
-<body>
+<body></body>
     
-    <table class="darkgreen" id="capname">
-        <caption>Student Mark Sheet</caption>
+    <table>
+
+        <tr>
+            <td id="sheet" colspan="6"><center>STUDENT MARK SHEET</center></td>
+        </tr>
 
         <tr>
             <th class="tddark">Name</th>
