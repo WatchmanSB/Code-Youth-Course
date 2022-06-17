@@ -6,11 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .nav {
+            width: 100%;
+            height: 200px;
+            padding-top: 10px;
+        }
+
+        #navbar ul li{
+            display: inline;
+            margin: 50px 0px 25px 20px ;
+            font-size: 16px;
+        }
+
+        #navbar li:nth-child(2) {
+            margin-right: 1470px;
+        }
+
+        #sgnin {
+            border-radius: 5px;
+            padding: 12px 30px;
+            background-color: rgb(87, 87, 179);
+            color: white;
+            border: none;
+        }
+
+        #dots {
+            position: relative;
+            top: 5px;
+        }
+
+        .main {
+            width: 100%;
+            height: 625px;
+        }
+
+        #googleim {
+            position: relative;
+            left: 42.5%;
+            top: 50px
+        }
+
+        .btn {
+            position: relative;
+            left: 530px;
+            top: 190px;
+            padding: 10px 20px;
+            margin: 0px 5px;
+            border: none;
+        }
+
+        #srch {
+            padding: 14px 200px;
+            border-radius: 25px;
+            position: relative;
+            left: 80px;
+            top: 110px;
+            border: solid 1px grey;
+        }
+
+        #text {
+            position: relative;
+            left: ;
+            top: ;
+            font-siz
+        }
+
+
+
+        
+
         
     </style>
 </head>
 
 <body>
+
+    <div class="nav" id="navbar">
+        <ul>
+            <li>About</li>
+            <li>Store</li>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li><img id="dots" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\dots_nine_icon_175235.ico" width="25px" height="25px"></li>
+            <li><button id="sgnin">Sign in</button></li>
+        </ul>
+    </div>
+
+    
+    <div class="main">
+        <img id="googleim" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\googlelogo_color_272x92dp.png">
+        <button class="btn">Google Search</button> <button class="btn">I'm Feeling Lucky</button>
+        <input type="text" name="srch" id="srch">
+        <p id="text">Google offered in: <a href="">français</a></p>
+
+
+
+    </div>
+
+    
+    <div>
+
+    </div>
     
 </body>
 </html>
