@@ -1,0 +1,76 @@
+#body1{
+    background-color: antiquewhite;
+}
+
+#fieldset1{
+    background-color: lightblue;
+
+}
+
+#fieldset2{
+    background-color: white;
+}
+
+#legend{
+    font-size: 20px;   
+}
+
+
+#h1-1{
+    color:green;
+    font: bold;
+    background-color:aqua;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+} 
+
+#p-1{
+    color: red;
+}
+
+#p-2{
+    color: blue;
+
+}
+
+#h2-1{
+    color: purple;
+    font-size: 15px;
+}
+
+#span1{
+    color: black;
+    text-decoration:underline;
+}
+
+#span2{
+    color: black;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+#li1{
+    color: red;
+    background-color:gold ;
+}
+
+#li2{
+    color: darkmagenta;
+    background-color:grey ;
+}
+
+#li3{
+    color: darkgreen;
+    background-color: lightcoral;
+}
+
+#legend2{
+    color: darkblue;
+}

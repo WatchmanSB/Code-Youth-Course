@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:darkgray">
+    
+    <center><h1><b>Survey Form</b></h1></center>
+
+    <form style="background-color:beige">
+    <fieldset><center>
+
+        Let us know how we can improve freeCodeCamp
+        <br><br>
+
+        <label for="name">* Name</label>
+        <input name="name" type="text" required/>
+        <br>
+
+        <label for="email">* Email</label>
+        <input name="email" type="email" required/>
+
+        <br> 
+
+        <label for="date">* Age:</label>
+        <input type="date" name="date" value="12-06-2022"/>
+
+        <br>
+
+        <table>
+            
+            <tr>
+                <td><label for="q1">Which option best describes your current role?</label></td>
+                <td><select name="q1" required>
+                    <option value="q1">Applicant</option>
+                    <option value="q1">Student</option>
+                    <option value="q1">Teacher</option>
+                    <option value="q1">Counsoler</option>
+                    <option value="q1">Career Counselor</option>
+                </td>
+                </select>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td><label for="q2">How likely is that you would recommend freeCodeCamp to a friend?</label></td>
+                <td><input type="radio" name="q2" value="q2"
+                    checked="checked"/> Definitely
+                    <input type="radio" name="q2" value="q2" />
+                    Maybe
+                    <input type="radio" name="q2" value="q2" />
+                    Not Sure</td>
+            </tr>
+
+            <tr>
+                <td><label for="q3">What do you like most in FCC</label></td>
+                <td><textarea name="comments" cols="20" rows="4">What do you like most about this course?</textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="q4"></label>Things that should be improved in future (Check all that apply)</td>
+                <td>
+
+                    <div>
+                        <input type="checkbox" name="q4"
+                               checked>
+                        <label for="scales">Front-End</label>
+                      </div>
+                  
+                      <div>
+                        <input type="checkbox" name="q4">
+                        <label for="horns">Back-End</label>
+                        </div>
+                        
+                        <div>
+                        <input type="checkbox" name="q4"
+                               checked>
+                        <label for="scales">Data-Visualization</label>
+                      </div>
+
+                   </select></td>
+            </tr>
+        </table>
+
+    </form>
+
+    </center></fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:antiquewhite">
+    
+    <fieldset>
+        <legend><b>Contact Info</b></legend>
+
+        
+        <center><h1 style="border:red; border-width:8px; border-style:double">Student Registration Form</h1></center>
+
+        <table>
+
+        <tr>
+        <td><label for="name">Name:</label></td>  <td><input name="name" type="text" placeholder="John" required/></td> </tr>
+    
+        <br>
+
+        <tr>
+        <td><label for="middlename">Middle Name: </label></td> <td><input name="middlename" type="text" placeholder="Adam" required/></td> </tr>
+        
+        <tr>
+        <td><label for="lastname">Last Name: </label></td> <td><input name="lastname" type="text" placeholder="Smith" required/></td> </tr>
+
+        <tr>
+        <td><label for="phone">Phone Number:</label></td> <td><input name="phone" type="text" placeholder="XXX-XXX-XXXX"/></td> </tr>
+
+        <tr>
+        <td><label for="cell"></label>Cell Number:</td> <td><input name="cell" type="text" placeholder="XXX-XXX-XXXX" /></td> </tr>
+
+    </table>
+
+    
+    </fieldset>
+
+    <fieldset> 
+        <legend><b>Personal Information</b></legend>
+
+        <br>
+
+        <table>
+
+        <tr>
+        <td><label for="Gender">Gender:</label></td>
+        <td><input type="radio" name="radio" id="gender" value="Male"/>Male
+        <input type="radio" name="radio" id="gender" value="Female"/>Female </td>
+    </tr>
+        
+        <tr>
+        <td><label for="date">Date of birth: </label></td>
+        <td><input type="date" name="date" value="12-06-2022"/></td>
+    </tr>
+
+        <tr>
+        <td><label for="address">Address 1: </label></td>
+        <td><input name="address" type="text" placeholder="123 Road ave" required/></td>
+    </tr>
+
+        
+        <tr>
+        <td><label for="address">Address 2: </label></td>
+        <td><input name="address" type="text" placeholder="456 Road ave"/></td>
+    </tr>
+        
+
+        <tr>
+        <td><label for="list">Blood Type:</label></td>
+     <td><select name="list" id="list">
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+     </select> </td>   
+     </tr>
+
+
+        <tr>
+
+        <td><label for="dep">Department:</label></td>
+
+        <td><label for="dep"></label>
+        <input type="radio" name="radio" id="dep" value="dep"/>CSE
+        <input type="radio" name="radio" id="dep" value="dep"/>EEE
+        <input type="radio" name="radio" id="dep" value="dep"/>BBA  </td>
+
+    </tr>
+
+
+        <tr>
+
+        <td><label for="Gender">Course:</label></td>
+        <td><input type="radio" name="radio" id="course" value="course"/>C
+        <input type="radio" name="radio" id="course" value="course"/>C++
+        <input type="radio" name="radio" id="course" value="course"/>Java
+        <input type="radio" name="radio" id="course" value="course"/>AI
+        <input type="radio" name="radio" id="course" value="course"/>Machine Learning
+        <input type="radio" name="radio" id="course" value="course"/>Robotics</td>
+
+    </tr>
+
+    </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend><b>Extra Information</b></legend>
+
+        Let us get to know you. <br>Write something about yourself:
+        <br>
+        <textarea rows="20" cols="20" name="Description" placeholder="..."></textarea>
+
+        <br><br><br>
+
+        <label for="uplaod">Submit Resume:</label> <input type="file" name="upload"/>
+
+        <br><br><br><br>
+        
+        <center><input type="submit" value="Submit"/></center>
+
+    </fieldset>
+
+
+
+
+
+
+    
+</body>
+</html>

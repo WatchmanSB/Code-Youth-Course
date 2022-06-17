@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+
+
+    <form name="Login-Form"> 
+        <h1>Registration Form</h1>
+        
+        <label for="username">Username<span style="color:red">*</span></label><br>
+        <input name="username" type="text" required/>
+        <br> <br>
+        
+        <label for="password">Password<span style="color:red">*</span></label><br>
+        <input name="password" type="password" required/>
+        <br> <br> 
+
+        <label for="password">Retype Password<span style="color:red">*</span></label><br>
+        <input name="password" type="password" required/>
+
+        <br> <br>
+        
+        <label for="email">Email*</label><br>
+        <input name="email" type="email" />
+        
+        <br> <br>
+        
+        
+        <label for="address">Address 1</label>
+        <input name="address" type="text" >
+
+        <label for="address">Address 2</label>
+        <input name="address" type="text" >
+        <br>
+
+        <label for="postalcode">Postal Code</label>
+        <input name="postalcode" type="text"/>
+
+        <br> <br>
+
+        <label for="date">Date of birth:</label>
+        <input type="date" name="Date" value="12-06-2022" />
+
+
+        <br> <br>
+
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="radio" id="gender" value="Male">Male
+        <input type="radio" name="radio" id="gender" value="Female">Females
+
+        <br> <br>
+
+        Classes you wish to enroll: <br>
+
+        <input type="checkbox" name="Maths"> Maths
+        <input type="checkbox" name="Biology"> Biology
+        <input type="checkbox" name="Chemistry"> Chemistry
+        <input type="checkbox" name="History"> History 
+        <input type="checkbox" name="English"> English <br>
+        <input type="checkbox" name="French"> French
+        <input type="checkbox" name="Pys-Ed"> Pys-Ed
+        <input type="checkbox" name="Computer Science"> Computer Science
+        <input type="checkbox" name="Wood Working"> Wood Working
+        <input type="checkbox" name="Culinary"> Culinary
+
+        <br> <br>
+
+        Let us get to know you. <br>Write something about yourself:
+        <br>
+        <textarea rows="20" cols="20" name="Description"></textarea> <br>
+
+        <br> <br>
+
+
+    <br>
+    <label for="list">Languages Known:</label>
+    <select name="list" multiple="multiple" id="list">
+        <option value="eng">English</option>
+        <option value="fr">French</option>
+        <option value="spn">Spanish</option>
+        <option value="ger">German</option>
+        <option value="hun">Hungarian</option>
+
+        <br><br><br><br>
+
+        Search: <input type="search" name="search" />
+
+        <br><br>
+
+        
+        </fieldset>
+
+        
+
+        <br><br>
+
+        <input type="hidden" name="hidden" value="123"/>
+
+
+    </select>
+    <input type="file" name="upload"/>
+    
+
+        <input type="submit" value="Submit" /> 
+        
+        <br> <br>
+
+        <input type="reset" value="reset"/> 
+        
+        <br><br>
+
+        <input type="button" value="click" onclick="alert('Terms of service')"/> 
+        
+        <br><br>
+
+        <button onclick="alert('hi')">Alert</button> 
+        
+        <br><br>
+
+</fieldset>
+
+
+       
+        
+
+
+
+
+        
+
+
+    </form>
+</body>
+</html>
