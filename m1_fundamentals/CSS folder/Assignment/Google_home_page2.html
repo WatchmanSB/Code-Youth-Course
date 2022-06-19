@@ -53,7 +53,7 @@
 
         .btn {
             position: relative;
-            left: 530px;
+            left: -40px;
             top: 190px;
             padding: 10px 20px;
             margin: 0px 5px;
@@ -64,17 +64,103 @@
             padding: 14px 200px;
             border-radius: 25px;
             position: relative;
-            left: 80px;
+            left: 390px;
             top: 110px;
             border: solid 1px grey;
         }
 
         #text {
             position: relative;
-            left: ;
-            top: ;
-            font-siz
+            left: 870px;
+            top: 220px;
+            font-size: 14px;
         }
+
+        .footer {
+            width: 100%;
+            height: 100px;
+            background-color: whitesmoke;
+            position:fixed;
+            bottom: 0%;
+        }
+
+        #foot ul li {
+            display: inline;
+            font-size: 17px;
+            margin-right: 18px;
+            position:relative;
+            left: 30px;
+            bottom: -10px;
+            color: rgb(77, 77, 77);
+        }
+
+        #foot li:nth-child(3) {
+            margin-right: 70%;
+        }
+
+        #text {
+            padding-top: 15px;
+            padding-bottom: 15px ;
+            position: relative;
+            left: 30px;
+            font-size: 17px;
+            color: black;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+
+        }
+
+        a:visited{
+            color: black;
+            text-decoration: none;
+        }
+        
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: black;
+            text-decoration: underline;
+        }
+
+        #sb {
+            padding-top: 10px;
+        }
+        
+        #sb a:link {
+            color: rgb(117, 117, 117);
+            text-decoration: none;
+        }
+
+        #sb a:visited{
+            color: rgb(117, 117, 117);
+            text-decoration: none;
+        }
+        
+        #sb a:hover{
+            text-decoration: underline;
+        }
+
+        #sb a:active{
+            color: rgb(117, 117, 117);
+            text-decoration: underline;
+        }
+
+        #dot {
+            width: 25px;
+            height: 25px;
+            position: relative;
+        }
+
+        #text1 {
+            
+        }
+
+        
 
 
 
@@ -88,30 +174,39 @@
 
     <div class="nav" id="navbar">
         <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><img id="dots" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\dots_nine_icon_175235.ico" width="25px" height="25px"></li>
+            <li class="font1"><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li class="font1"><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
+            <li class="font"><a href="https://www.google.com/gmail/about/">Gmail</a></li>
+            <li class="font"><a href="https://www.google.ca/imghp?hl=en&ogbl">Images</a></li>
+            <li><img id="dot" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\dots_nine_icon_175235.ico"></li>
             <li><button id="sgnin">Sign in</button></li>
         </ul>
     </div>
 
     
     <div class="main">
-        <img id="googleim" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\googlelogo_color_272x92dp.png">
-        <button class="btn">Google Search</button> <button class="btn">I'm Feeling Lucky</button>
+        <img id="googleim" src="C:\Users\Algon\OneDrive\Documents\GitHub\Code-Youth-Course\m1_fundamentals\pictures\googlelogo_color_272x92dp.png">     
         <input type="text" name="srch" id="srch">
-        <p id="text">Google offered in: <a href="">français</a></p>
-
-
-
+        <button class="btn">Google Search</button> <button class="btn">I'm Feeling Lucky</button>
+        
     </div>
 
     
-    <div>
-
+    <div class="footer" id="foot">
+        <ul id="text1">
+            <li>Canada</li>
+        </ul>
+        <hr>
+        <ul id="sb">
+            <li><a href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li><a href="https://smallbusiness.withgoogle.com/intl/en_ca/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CA#!/">Business</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            <li><a href="https://policies.google.com/privacy?hl=en-CA&fg=1">Privacy</a></li>
+            <li><a href="https://policies.google.com/terms?hl=en-CA&fg=1">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
     </div>
     
 </body>
 </html>
+
