@@ -34,6 +34,7 @@ console.log (`pull random values with curley brackets, ${num}`)
 
 let choice =3, val1= 10, val2=5, result=0;
 
+
 switch(choice) {
     case 1: result=val1+val2;
             break;
