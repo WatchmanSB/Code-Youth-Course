@@ -49,27 +49,27 @@ console.log ("break")
 
 for (let i = 0; i < 3 ; i ++) { switch(i) {
     case 0: 
-        document.write ("<li><ul>1</ul><ul>34</ul><ul>230</ul></li>")
+        document.write ("<ul><li>1</li><li>58</li><li>267</li></ul>")
     break; 
 
     case 1:
-        document.write ("<li><ul>5</ul><ul>78</ul><ul>139</ul></li>") 
+        document.write ("<ul><li>2</li><li>34</li><li>783</li></ul>") 
     break;
 
     case 2:
-        document.write ("<li><ul>8</ul><ul>15</ul><ul>570</ul></li>")
+        document.write ("<ul><li>8</li><li>14</li><li>493</li></ul>")
     break;
 
     case 3:
-        document.write ("<li><ul>2</ul><ul>65</ul><ul>310</ul></li>") 
+        document.write ("<ul><li>7</li><li>37</li><li>723</li></ul>") 
     break;
 
     case 4:
-        document.write ("<li><ul>7</ul><ul>93</ul><ul>385</ul></li>")
+        document.write ("<ul><li>4</li><li>73</li><li>385</li></ul>")
     break;
 
     case 5:
-        document.write ("<li><ul>9</ul><ul>23</ul><ul>756</ul></li>")
+        document.write ("<ul><li>9</li><li>23</li><li>756</li></ul>")
     break;
 }
 }
