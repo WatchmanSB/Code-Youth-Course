@@ -82,4 +82,79 @@ divide (10)
 
 
 
+console.log ("Break")
+
+
+function add(a,b) {
+    console.log (a+b)
+}
+
+add (1,2)
+
+
+
+
+console.log ("Break")
+
+function subtract (a,b) {
+    console.log (a-b)
+}
+
+subtract (2,1)
+
+
+
+console.log ("break")
+
+
+
+
+function multiply (a,b) {
+    console.log (a*b)
+}
+
+multiply (10,5)
+
+
+
+
+
+
+
+
+console.log ("break")
+
+
+
+
+
+
+function divide2 (a,b) {
+    console.log (a/b)
+}
+
+divide2 (100,5)
+
+
+console.log ("Harder assignment break")
+
+function qest1 (a,b) {
+    let c= a/b
+    if (a == 0 || b == 0) {
+        console.log ("This number is equal to 0")
+    }
+    else {
+        console.log(c)
+
+    }
+}
+
+qest1 (10,2)
+
+
+
+
+
+
+
 
