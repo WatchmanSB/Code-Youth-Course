@@ -9,6 +9,9 @@ nam ("Steven", "Belenchia")
 console.log (" ")
 
 
+
+
+
 let loc= (province, city, name) => {
     console.log ("My name is", name, "and I live in", province, city)
 }
@@ -16,7 +19,14 @@ let loc= (province, city, name) => {
 loc("Ontario", "Ottawa", "Steven")
 
 
+
+
+
 console.log(" ")
+
+
+
+
 
 const number= (a,b) => { 
     return (a*b)-2
@@ -26,7 +36,16 @@ console.log("This is the results of the multiplication", number(3,8))
 
 
 
+
+
+
+
 console.log(" ")
+
+
+
+
+
 
 const number2= (a,b) => { 
     return (a/b)+2
