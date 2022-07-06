@@ -34,3 +34,22 @@ let b=a;
 console.log(b)
 b=7;
 console.log(b)
+
+
+const array = {
+    {
+
+    }
+
+    {
+
+    }
+
+    {
+
+    }
+
+    {
+        
+    }
+}
