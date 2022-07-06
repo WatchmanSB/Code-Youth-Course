@@ -74,8 +74,8 @@ let ele= list.pop();
 console.log("pop", ele);
 
 
-let un= list.unshift();
-console.log("unshift:", un)
+list.unshift("list9");
+console.log("unshift:", list)
 
 let item= list.shift();
 console.log("shift:", item)
