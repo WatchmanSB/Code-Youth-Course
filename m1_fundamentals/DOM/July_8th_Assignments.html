@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="evilList">
+        <li>Cheese</li>
+        <li>Orange</li>
+        <li>Flowers</li>
+    </ul>
+
+    <table id="area" border="1">
+        <tr class="headerRow">
+            <th>Length</th>
+            <th>Width</th>
+            <th>Area</th>
+        </tr>
+    </table>
+
+
+
+    <script>
+        const para= document.createElement("h1");
+        para.innerHTML="My DOM Questions :) ";
+        document.body.appendChild(para);
+
+        const lists= document.createElement("li");
+        lists.innerHTML="Beetles";
+        const Elist= document.getElementsByClassName("evilList");
+        Elist[0].appendChild(lists);
+
+        const lists1= document.createElement("li");
+        lists1.innerHTML="Limproot";
+        Elist[0].appendChild(lists1);
+
+        const area= document.getElementById("area");
+
+        const line= document.createElement("tr");
+        area.appendChild(line);
+        const line1= document.createElement("tr");
+        area.appendChild(line1);
+
+
+
+        const a1= document.createElement("th")
+        a1.innerHTML=("5")
+        line.appendChild(a1)
+
+        const a2= document.createElement("th")
+        a2.innerHTML=("12")
+        line.appendChild(a2)
+
+        const a3= document.createElement("th")
+        a3.innerHTML=("60")
+        line.appendChild(a3)
+
+        const a4= document.createElement("th")
+        a4.innerHTML=("32")
+        line1.appendChild(a4)
+
+        const a5= document.createElement("th")
+        a5.innerHTML=("15")
+        line1.appendChild(a5)
+
+        const a6= document.createElement("th")
+        a6.innerHTML=("480")
+        line1.appendChild(a6)
+
+
+
+
+
+
+    </script>
+</body>
+</html>

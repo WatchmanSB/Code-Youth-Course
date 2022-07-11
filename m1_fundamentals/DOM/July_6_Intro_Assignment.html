@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="id1">This is an ID</p>
+    <p id="id2">This is an ID2</p>
+    <p class="class1">This is class1</p>
+    <p class="class1">This is class1</p>
+    <p class="class2">this is class2</p>
+    <p class="class2">This is class2</p>
+
+
+
+    <div class="button1">
+        <p>This is div1</p>
+        <p>This is div2</p>
+        <p>This is div3</p>
+    </div>
+
+    <div id="button2">
+        <p>This is div4</p>
+        <p>This is div5</p>
+        <p>This is div6</p>
+    </div>
+
+    <button type="button" onclick="myFunction()">Set border</button>
+
+    <script>
+        
+        document.getElementById("id1")
+        document.getElementById("id2")
+        document.getElementsByClassName("class1")
+        document.getElementsByClassName("class2")
+        document.querySelector("p").style.color="blue"
+        
+        function myFunction() {
+            let p= document.querySelectorAll(".button1 p")
+            console.log(p[1])
+            for (let i=0; i< p.length; i++) {
+                p[i].style.border="thick solid"
+            }
+        }
+
+
+    </script>
+</body>
+</html>

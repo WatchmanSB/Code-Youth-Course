@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+ 
+    <h1 id="heading">Fruits</h1>
+
+    <ul>
+        <li id="app">Apple</li>
+        <li id="ora">Orange</li>
+        <li id="gra">Grapes</li>
+        <li id="man">Mango</li>
+    </ul>
+
+    <p>These are some fruits I like</p>
+
+    <p>I also like the color red</p>
+
+    <button onclick="change()">See Fruit Colors</button>
+
+    <script>
+        function change(){
+            // Id
+            document.getElementById("heading").innerHTML = "Fruits in Color";
+            const red= document.getElementById("app");
+            red.style.color="red";
+            const orange= document.getElementById("ora");
+            orange.style.color="orange";
+            const green= document.getElementById("gra");
+            green.style.color="green";
+            const yellow= document.getElementById("man");
+            yellow.style.color="yellow";
+            
+            // Tags
+            const para= document.getElementsByTagName("p");
+            para[0].style.color="grey"
+            para[0].style.fontSize="20px"
+            para[1].style.color="red"
+
+            // document.querySelector()   or document.QueryselectorAll()    - specific tag and style or every tag or style
+
+            
+
+
+        
+        }
+
+    </script>
+</body>
+</html>

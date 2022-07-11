@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a id="link" style href="https://www.google.com/">Google</a>
+
+    <button onclick="change()">Change to Yahoo</button>
+
+    <br>
+
+    <a id="link1" href="https://www.youtube.com/">Youtube</a>
+
+    <button onclick="change1()">Change to Rumble</button>
+
+    <p>First Paragraph</p>
+
+    <p>Second Paragraph</p>
+
+
+
+    <script>
+        function change(){
+            const link= document.querySelector("#link");
+            link.href="https://ca.yahoo.com/";
+            link.innerHTML="Yahoo";
+            colorchange();
+
+            
+        }
+
+        function change1(){
+            const link1= document.querySelector("#link1");
+            link1.href="https://rumble.com/"
+            link1.innerHTML= "Rumble"
+            colorchange();
+        }
+
+        function colorchange(){
+            const links= document.querySelectorAll("a");
+            for(let i=0; i<links.length; i++) {
+                links[i].style.background="yellow"
+            }
+        }
+
+        const para3= document.createElement("p");
+        para3.innerHTML="Third Paragraph";
+        para3.id="para3";
+        document.body.appendChild(para3);
+
+        const anc= document.createElement("a");
+        anc.href= "https://wallet.gamestop.com/";
+        anc.innerHTML=" <b>Gamestop Wallet</b>";
+        document.querySelector("#para3").appendChild(anc);
+
+            
+
+
+    </script>
+    
+
+
+
+</body>
+</html>
