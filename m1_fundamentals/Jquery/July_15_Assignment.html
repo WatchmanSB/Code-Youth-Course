@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="name">Name:</p>
+
+    <p id="email">Email:</p>
+
+
+
+    <script>
+        let url="https://jsonplaceholder.typicode.com/user"
+        fetch(url) 
+        .then((response) => {
+            console.log(response)
+            return response.json()
+        })
+        
+        .then((data) =>{
+            console.log(data[0].name)
+            $("#name").append
+        })
+    </script>
+
+</body>
+</html>

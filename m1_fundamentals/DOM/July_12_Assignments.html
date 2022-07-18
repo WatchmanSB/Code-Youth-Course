@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: antiquewhite;
+        }
+
+        label{
+            display: inline-block;
+            width: 100px;
+            padding-bottom: 5px;
+        }
+
+        input{
+            background-color: white;
+        }
+
+        .btn{
+            margin-left: 80px;
+            margin-top: 20px;
+            padding: 5px 10px;
+            background-color: white;
+        }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div>
+    <form id="reg">
+        <label for="uname">User Name</label>
+        <input name="uname" id="uname" type="text"/>
+        
+        <br>
+        
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email">
+        
+        <br>
+        
+        <label for="psw">Password</label>
+        <input for="psw" id="psw" type="password">
+    </div>
+    <div>
+        <button class="btn">Submit</button>
+    </div>
+    
+    </form>
+
+
+
+    <script>
+
+        const form= document.getElementById("reg")
+
+        form.addEventListener("submit", function getUser(e) {
+            // stops form from refreshing
+            e.preventDefault();
+            console.log(form.uname.value);
+
+        } );
+
+        
+
+        
+
+
+    </script>
+</body>
+</html>

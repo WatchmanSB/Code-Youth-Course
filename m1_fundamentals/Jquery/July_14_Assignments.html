@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar {
+            background-color: grey;
+            color: white;
+        }
+        
+        #navbar p {
+            display: inline-block;
+        }
+
+        .navid {
+            margin: 5px 100px 100px 5px;
+            padding: 3px;
+        }
+
+        .navcolor{
+            background: green !important;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        <p class="navid">Home</p>
+        <p class="navid">Images</p>
+        <p class="navid">Maps</p>
+        <p class="navid">About</p>
+        <p class="navid">Contacts</p>
+    </div>
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        $(document).ready(function() {
+            $("p.navid").mouseover(function (e) {
+                console.log(e)   
+                $(e.currentTarget).css("background", "black") 
+            })
+            $("p.navid").click(function (e) {
+                $(".selected").removeClass("selected")
+                console.log($(".selected"))
+                $(e.currentTarget).addClass("navcolor")
+            })
+            $("p.navid").mouseout(function (e) {
+                $(e.currentTarget).css("background", "initial") 
+            })
+            
+        })
+        
+
+    </script>
+</body>
+</html>

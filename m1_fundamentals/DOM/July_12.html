@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 100px;
+            padding-bottom: 5px;
+        }
+
+        div.btn{
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <form name="reg" onsubmit="return validate()">
+        <label for="Uname">* Name</label>
+        <input id="Uname" name="Uname" type="text" required placeholder="User Name"/>
+        <br>
+
+        <label for="email">* Email</label>
+        <input name="email" type="email" required placeholder="Email"/>
+
+        <br> 
+
+        <label for="Password">* Password:</label>
+        <input id="Password" type="password" name="Password" required placeholder="Password"/>
+
+        <br><br>
+
+        <div>
+        <button class="btn">Submit</button>  <button class="btn">Reset</button>
+        </div>
+    </form>
+
+
+        <script>
+            const name1= document.getElementById("Uname");
+            console.log("name1", name1)
+            
+            name1.addEventListener("focus", ()=>
+            name1.style.background= "antiquewhite")
+
+            name1.addEventListener("blur", ()=>
+            name1.style.background= "white")
+
+            name1.addEventListener("change", ()=> {
+            name1.style.color= "red"
+            name1.value= name1.value.toUpperCase() } )
+
+            function validate() {
+            const pass= document.getElementById("Password");
+            console.log(pass)
+            if(pass.value.length<8){
+                alert("password should be a minimum of 8 characters");
+                return false;
+            }
+                return true;
+            }
+            
+            
+            
+        </script>
+
+    
+</body>
+</html>
+
+
