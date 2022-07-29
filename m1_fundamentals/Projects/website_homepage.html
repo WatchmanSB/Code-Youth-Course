@@ -61,12 +61,26 @@
             margin-right: 700px;
         }
 
-        body1 {
-        
+        btn {
+            width: 15px;
+            height: 5px
         }
 
+        .card {
+            border: black solid 1px;
+            height: 320px;
+            width: 175px;
+            align-content: center;
+            display: inline-block;
+            margin: 25px;
+            align-content: center;
+        }
 
-        imgs {
+        #sele {
+            font-size: 35px;
+        }
+
+        #foot {
 
         }
 
@@ -84,7 +98,7 @@
     
     <header>
         <div><a id="rgt" href="">CarsnCards</a></div>
-        <input class="circle"  type="text" placeholder="search products" id="input">
+        <input class="circle"  type="text" placeholder="search products" id="input"><button id="btn">Search</button>
         <ul>
             <li class="block">Home</li>
             <li class="block">Catalogue</li>
@@ -93,27 +107,89 @@
         </ul>
     </header>
 
-    <body>
+    <main>
         <div>  
-            <div class="body1">  
-              <div class="imgs">  
-                <img src=""  
-                  alt="" class="img">  
-                <img src=""  
-                  alt="" class="img">  
-                <img src=""  
-                  alt="" class="img">  
-                <img src=""  
-                  alt="" class="img">  
-                <img src=""  
-                  alt="" class="img">  
-              </div>  
-            </div>
-        </div>  
-    </body>
+            <center><img id="pic" src="../pictures/pokemon_cards2.JPG" width="100%" height="784"></center>
+        </div>
+
+        <br> <br>
+        <br>
+        <center><p id="sele">Our Selection</p></center>
+        <br>
+
+        <div class="card">
+            <img src="../pictures/charmander.jpg">
+            <h1 id="n1">Charmander</h1>
+            <p id="p1">$55</p>
+            <p><button>Add to Cart</button></p>
+
+        </div>
+
+        <div class="card"> 
+            <img src="../pictures/squirtle.jpg">
+            <h1 id="n2">Squirtle</h1>
+            <p id="p2">$50</p>
+            <p><center><button>Add to Cart</button></center></p>
+
+        </div>
+
+        <div class="card">
+            <img src="../pictures/bulbasaur.jpg">
+            <h1 id="n3">Bulbasaur</h1>
+            <p id="p3">$35</p>
+            <p><center><button>Add to Cart</button></center></p>
+
+        </div>
+
+        <div class="card">
+            <img src="../pictures/pikachu.jpg">
+            <h1 id="n4">Pikachu</h1>
+            <p id="p4">$70</p>
+            <p><center><button>Add to Cart</button></center></p>
+
+        </div>
+
+        <div class="card">
+            <img src="../pictures/voltorb.jpg">
+            <h1 id="n5">Voltorb</h1>
+            <p id="p5">$7</p>
+            <p><center><button>Add to Cart</button></center></p>
+
+        </div>
+
+        <div class="card">
+            <img src="../pictures/electrode.jpg">
+            <h1 id="n6">Electrode</h1>
+            <p id="p6">$15</p>
+            <p><center><button>Add to Cart</button></center></p>
+
+        </div>
+
+
+        <div class="card">
+            <img src="../pictures/Charizard.jpg">
+            <h1 id="n7">Charizard</h1>
+            <p id="p7">$350</p>
+            <p><center><button>Add to Cart</button></center></p>
+        </div>
+
+        <footer id="foot">
+            <p>Privacy Policy</p>
+            <p>About Us</p>
+            <p>Contact</p>
+        </footer>
 
 
 
+    </main>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    
+</script>
 
 </body>
 </html>
